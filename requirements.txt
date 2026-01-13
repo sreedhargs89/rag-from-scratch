@@ -1,0 +1,20 @@
+# Core dependencies
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# For document loading
+pdfplumber>=0.7.0
+python-docx>=0.8.11
+
+# For production-ready embeddings
+sentence-transformers>=2.2.0
+
+# For fast vector search (optional but recommended)
+faiss-cpu>=1.7.0  # Use faiss-gpu if you have a compatible GPU
+
+# For visualization (optional)
+matplotlib>=3.5.0
+
+# Development (optional)
+jupyter>=1.0.0
+ipython>=8.0.0
